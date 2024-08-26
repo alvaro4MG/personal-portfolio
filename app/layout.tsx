@@ -11,7 +11,7 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Álvaro MArtínez Portfolio',
+    default: 'Álvaro Martínez Portfolio',
     template: '%s | Next.js Portfolio Starter',
   },
   description: 'This is Álvaro\'s portfolio.',

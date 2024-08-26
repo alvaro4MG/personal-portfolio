@@ -10,7 +10,7 @@ const navItems = {
   '/education': {
     name: 'EDUCATION',
   },
-  '/experience': {
+  '/workexperience': {
     name: 'WORK EXPERIENCE',
   },
   'https://vercel.com/templates/next.js/portfolio-starter-kit': {
