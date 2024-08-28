@@ -8,7 +8,7 @@ const Navbar = () => {
                     Álvaro's Portfolio
                 </Link>
             </div>
-            <a href="https://docs.google.com/document/d/10ZosQ38Z3804KYPcb_aZp9bceoXK-q3GrkHjYshqIRE/edit?usp=sharing" className="cta-btn">Resume mal</a>
+            <a href="https://alvaro4mg.verl.app/CV_Harvard_Alvaro.pdf" className="cta-btn">Resume</a>
         </div>
     )
 }
