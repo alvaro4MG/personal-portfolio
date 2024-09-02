@@ -31,6 +31,17 @@ li {
   list-style: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Navbar */
 .nav-container {
   display: flex;
@@ -60,6 +71,17 @@ li {
 .cta-btn:hover {
   background-color: #DADADB;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 hr {
@@ -105,6 +127,17 @@ hr {
 .footer-container .social_icons a:hover {
   color: #DADADB;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Hero */
 
@@ -165,6 +198,18 @@ hr {
 .hero-container .social-icons a:hover {
   color: #DADADB;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* About */
 .about-container {
@@ -228,6 +273,18 @@ hr {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Skills */
 .skills-container {
   padding: 2rem 0;
@@ -285,13 +342,31 @@ hr {
   background-color: #61DAFB;
 }
 
-.skills-container .grid-skills .node:hover {
-  background-color: #339933;
-}
-
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
 }
+
+
+.skills-container .grid-skills .language:hover {
+  background-color: #3776AB;
+}
+
+.skills-container .grid-skills .tool:hover {
+  background-color: #E34F26;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Projects */
 .projects-container {
@@ -359,6 +434,17 @@ hr {
   margin-bottom: 10px;
   color: #b3b3b3;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* contact */
 .contact-container {

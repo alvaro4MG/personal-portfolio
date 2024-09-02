@@ -8,6 +8,11 @@ const Navbar = () => {
                     Álvaro's Portfolio
                 </Link>
             </div>
+            {/*<div className="logo">
+                <Link href="/prueba">
+                    Prueba
+                </Link>
+            </div>*/}
             <a href="https://alvaro4mg.vercel.app/CV_Harvard_Alvaro.pdf" className="cta-btn">Resume</a>
         </div>
     )
