@@ -1,17 +1,12 @@
-import Image from "next/image";
-
-const Hero = () => {
+const Footer = () => {
     return (
-        <div className="hero-container">
-            <Image src='/images/profile.jpg' className="profile-img" width={300} height={300} alt="Álvaro's personal headshot" />
-            <div className="hero-text">
-                <h1>Hey, I'm Álvaro 👋</h1>
+        <>
+            <hr />
+            <div className="footer-container">
                 <p>
-                    I'm a final-year Computer Engineering student and a software and game developer from Spain. This web portfolio showcases 
-                    my projects, skills and progress for all my learning in game development. If you have any advice, questions or 
-                    offers, please feel free to check out my resume and contact me.
+                    &copy; {new Date().getFullYear()} Álvaro's Portfolio
                 </p>
-                <div className="social-icons">
+                <div className="social_icons">
                     <a
                         href="mailto:alvaromg8m@gmail.com"
                         aria-label="Gmail"
@@ -38,8 +33,7 @@ const Hero = () => {
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a
-                        href="https://itch.io/"
-                        //href=""
+                        href="https://alvaro4mg.itch.io"
                         aria-label="itch.io"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -48,8 +42,8 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
-export default Hero;
+export default Footer;
