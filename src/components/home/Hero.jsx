@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="hero-text">
                 <h1>Hey, I'm Álvaro 👋</h1>
                 <p>
-                    I'm a final-year Computer Engineering student and a software and game developer from Spain. This web portfolio showcases 
+                    I'm a Computer Engineering graduate and a software and game developer from Spain. This web portfolio showcases 
                     my projects, skills and progress for all my learning in game development. If you have any advice, questions or 
                     offers, please feel free to check out my resume and contact me.
                 </p>
@@ -47,7 +47,15 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
+            <div class="scroll-indicator">
+                <a href="#about">
+                    <div class="arrow-circle">
+                        <span class="arrow-down"></span>
+                    </div>
+                </a>
+            </div>
         </div>
+        
     )
 }
 

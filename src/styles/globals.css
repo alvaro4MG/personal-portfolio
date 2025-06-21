@@ -199,6 +199,42 @@ hr {
   color: #DADADB;
 }
 
+.scroll-indicator {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.arrow-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid white;
+}
+
+.arrow-circle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FFD700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: bounce 1.2s ease-in-out infinite;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(15px); }
+  100% { transform: translateY(0); }
+}
+
+
 
 
 
@@ -474,4 +510,71 @@ hr {
   font-weight: 400;
   margin-bottom: 1rem;
   text-align: center;
+}
+
+
+
+
+
+
+
+/* timeline */
+.timelineContainer {
+  position: relative;
+  margin: 50px 0;
+  padding-left: -20px;
+  border-left: 3px solid #ddd;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 30px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.timelineItem.active {
+  opacity: 1;
+}
+
+.timelinePoint {
+  position: absolute;
+  left: -11px;
+  top: 40px;
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  z-index: 1;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.timelineItem.active .timelinePoint {
+  background-color: #3498db;
+}
+
+.timelineContent {
+  padding-left: 30px;
+}
+
+/*.timelineContent .hero-text {
+  text-align: center;
+  margin: 1rem 0;
+  width: 80%;
+}*/
+
+.timelineContent h3 {
+  margin: 0 0 5px;
+  font-size: 50px;
+}
+
+.timelineContent p {
+  margin: 0 0 5px;
+  font-size: 25px;
+}
+
+.timelineContent span {
+  font-size: 20px;
+  color: #888;
 }
