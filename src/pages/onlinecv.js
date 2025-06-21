@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import React, { useRef } from 'react';
 
-import Timeline from '../components/onlinecv/Timeline';
+import Timeline from '@/components/onlinecv/Timeline';
 
 
 
