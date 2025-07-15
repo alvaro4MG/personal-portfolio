@@ -1,5 +1,5 @@
 import '@/styles/globals.css';
-import '@/styles/courses.css';		//must be on _app.js
+//import '@/styles/courses.css';		//must be on _app.js
 
 import Layout from '../components/common/layout';
 
