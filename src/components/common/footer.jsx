@@ -40,6 +40,14 @@ const Footer = () => {
                     >
                         <i className="fa-brands fa-itch-io"></i>
                     </a>
+                    <a
+                        href="https://bsky.app/profile/pikalvaro.bsky.social"
+                        aria-label="Bluesky"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i className="fa-brands fa-bluesky"></i>
+                    </a>
                 </div>
             </div>
         </>

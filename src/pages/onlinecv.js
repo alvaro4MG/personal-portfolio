@@ -11,7 +11,7 @@ const OnlineCV = () => {
         {
           title: 'Bachelor\'s degree in Computer Engineering',
           description: 'University of Alicante. Part of the ARA program (High Academic Performance program).',
-          //date: '2020 - 2020',
+          date: '2020 - 2025',
           ref: useRef(null),
         },
         {
@@ -25,7 +25,7 @@ const OnlineCV = () => {
           description: 'Spanish Science Baccalaureate. Average grade: 9.9/10',
           date: '2018 - 2020',
           ref: useRef(null),
-        },
+        }/*,  Relleno para comprobar efecto de timeline
         {
             title: 'Licenciatura en Ciencias de la Computación',
             description: 'Universidad X, Descripción breve de la licenciatura.',
@@ -55,7 +55,7 @@ const OnlineCV = () => {
             description: 'Universidad X, Descripción breve de la licenciatura.',
             date: '2016 - 2020',
             ref: useRef(null),
-          },
+          },*/
       ];
     
       return (

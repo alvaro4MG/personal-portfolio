@@ -11,7 +11,7 @@ const Home = () => {
 		<>
 			<Head>
 				<title>Álvaro's Portfolio</title>
-				<meta name="description" content="Álvaro Martínez García's Portfolio. This webpage shows the work and progress of computer engineering student and software and game developer Alvaro Martinez Garcia from Spain." />
+				<meta name="description" content="Álvaro Martínez García's Portfolio. This webpage shows the work and progress of computer engineering graduate and software and game developer Alvaro Martinez Garcia from Spain." />
 			</Head>
 			<div>
 				<Hero />

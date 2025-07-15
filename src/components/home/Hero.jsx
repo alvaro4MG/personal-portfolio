@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="hero-container">
             <Image src='/images/profile.jpg' className="profile-img" width={300} height={300} alt="Álvaro's personal headshot" />
             <div className="hero-text">
-                <h1>Hey, I'm Álvaro 👋</h1>
+                <h1 class="pixel-font" style={{ fontSize: '30px' }}>Hey, I'm Álvaro 👋</h1>
                 <p>
                     I'm a Computer Engineering graduate and a software and game developer from Spain. This web portfolio showcases 
                     my projects, skills and progress for all my learning in game development. If you have any advice, questions or 
@@ -44,6 +44,14 @@ const Hero = () => {
                         rel="noopener noreferrer"
                     >
                         <i className="fa-brands fa-itch-io"></i>
+                    </a>
+                    <a
+                        href="https://bsky.app/profile/pikalvaro.bsky.social"
+                        aria-label="Bluesky"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i className="fa-brands fa-bluesky"></i>
                     </a>
                 </div>
             </div>
