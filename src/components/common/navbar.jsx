@@ -23,7 +23,7 @@ const Navbar = () => {
                     Courses
                 </Link>
             </div>*/}
-            <a href="https://alvaro4mg.vercel.app/CV_Harvard_Alvaro.pdf" className="cta-btn">Resume</a>
+            <a href="https://alvaro4mg.vercel.app/CV_Alvaro_Martinez_Garcia.pdf" className="cta-btn">Resume</a>
         </div>
     )
 }
