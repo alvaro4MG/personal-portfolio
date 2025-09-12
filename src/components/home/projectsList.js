@@ -22,7 +22,16 @@ export const projectData = [
 			'Final Year Project (TFG in Spanish) for Computer Engineering, titled "Generation of 3D Human Body Models from 2D Images".',
 		link: 'https://rua.ua.es/dspace/handle/10045/154744',
 		icon: 'fa-solid fa-globe'
-	}/*
+	},
+	{
+		id: 4,
+		title: 'Daily C# Leetcode challenge',
+		description:
+			'Daily practice with C# using Leetcode problems.',
+		link: 'https://github.com/alvaro4MG/leetcode-problems',
+		icon: 'fa-brands fa-github'
+	}
+	/*
 	,{
 		id: ,
 		title: '',
