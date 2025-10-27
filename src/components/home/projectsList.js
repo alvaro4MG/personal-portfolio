@@ -1,6 +1,14 @@
 export const projectData = [
 	{
 		id: 1,
+		title: 'Sand Collector',
+		description:
+			'A resource-management game blending 3D and 2D art, created for CLUBUJam.',
+		link: 'https://alvaro4mg.itch.io/sand-collector',
+		icon: 'fa-brands fa-itch-io'
+	},
+	{
+		id: 2,
 		title: 'Unity RPG Demo',
 		description:
 			'Implementation of various mechanics and features to practice and deepen my Unity 2D development skills with a 2D RPG.',
@@ -8,7 +16,7 @@ export const projectData = [
 		icon: 'fa-brands fa-github'
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'Daily C# Leetcode challenge',
 		description:
 			'Daily practice with C# using Leetcode problems.',
@@ -16,7 +24,7 @@ export const projectData = [
 		icon: 'fa-brands fa-github'
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Web Portfolio',
 		description:
 			'An online portfolio to show my projects, profile and contact.',
@@ -24,7 +32,7 @@ export const projectData = [
 		icon: 'fa-brands fa-github'
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Tech4Diet Website',
 		description:
 			'Redesigned the webpage for the Tech4Diet team of the University of Alicante while colaborating with the research.',
