@@ -1,6 +1,14 @@
 export const projectData = [
 	{
 		id: 1,
+		title: 'PokeLearn',
+		description:
+			'A Pokemon-themed quiz game designed to support English learning in Spanish educational centers',
+		link: 'https://alvaro4mg.itch.io/pokelearn',
+		icon: 'fa-brands fa-itch-io'
+	},
+	{
+		id: 2,
 		title: 'Sand Collector',
 		description:
 			'A resource-management game blending 3D and 2D art, created for CLUBUJam.',
@@ -8,23 +16,23 @@ export const projectData = [
 		icon: 'fa-brands fa-itch-io'
 	},
 	{
-		id: 2,
-		title: 'Unity RPG Demo',
+		id: 3,
+		title: 'Encrypted',
 		description:
-			'Implementation of various mechanics and features to practice and deepen my Unity 2D development skills with a 2D RPG.',
-		link: 'https://github.com/alvaro4MG/curso_8h_RPG',
-		icon: 'fa-brands fa-github'
+			'A first-person puzzle game focused on narrative and environmental exploration, set in a steampunk universe.',
+		//link: 'https://github.com/alvaro4MG/curso_8h_RPG',
+		//icon: 'fa-brands fa-github'
 	},
 	{
-		id: 3,
-		title: 'Daily C# Leetcode challenge',
+		id: 4,
+		title: 'Daily C#/C++ Leetcode challenge',
 		description:
 			'Daily practice with C# using Leetcode problems.',
 		link: 'https://github.com/alvaro4MG/leetcode-problems',
 		icon: 'fa-brands fa-github'
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Web Portfolio',
 		description:
 			'An online portfolio to show my projects, profile and contact.',
@@ -32,7 +40,7 @@ export const projectData = [
 		icon: 'fa-brands fa-github'
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Tech4Diet Website',
 		description:
 			'Redesigned the webpage for the Tech4Diet team of the University of Alicante while colaborating with the research.',
