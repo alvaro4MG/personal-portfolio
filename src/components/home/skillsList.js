@@ -1,13 +1,13 @@
 export const skillData = [
 	{
 		id: 1,
-		title: 'C/C++',
+		title: 'C#',
 		type: 'language',
 		icon: 'fa-solid fa-code'
 	},
 	{
 		id: 2,
-		title: 'C#',
+		title: 'C/C++',
 		type: 'language',
 		icon: 'fa-solid fa-code'
 	},

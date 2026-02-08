@@ -27,7 +27,7 @@ export const projectData = [
 		id: 4,
 		title: 'Daily C#/C++ Leetcode challenge',
 		description:
-			'Daily practice with C# using Leetcode problems.',
+			'Daily practice with C# and C++ using Leetcode problems.',
 		link: 'https://github.com/alvaro4MG/leetcode-problems',
 		icon: 'fa-brands fa-github'
 	},
